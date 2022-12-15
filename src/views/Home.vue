@@ -55,30 +55,9 @@ export default {
       color: 'you-best'
     })
     this.people.push({
-      name: 'Bekjan',
-      type: 'student scientist',
-      color: 'mediumblue'
-    })
-    this.people.push({
-      name: 'Anton',
+      name: 'bekjan',
       type: 'student',
-      color: 'mediumaquamarine'
-    })
-    
-    this.people.push({
-      name: 'bekzat',
-      type: 'student',
-      color: 'palevioletred'
-    })
-    this.people.push({
-      name: 'Ken',
-      type: 'student',
-      color: 'black'
-    })
-    this.people.push({
-      name: 'Mansur',
-      type: 'student',
-      color: 'blue'
+      color: 'red'
     })
     //здесь будете пушить свои данные
   }
@@ -142,5 +121,8 @@ export default {
   }
   .list .bg-yellow {
     background: rgb(242, 255, 0);
+  }
+  .list .bg-red {
+    background: red
   }
 </style>
